@@ -22,12 +22,12 @@ menu = multiplyNumeric(menu);
 console.log(menu);
 
 //2
-function multiplyNumeric(obj) {
-    return Object.fromEntries(
-        Object.entries(obj).map(([key, value]) => 
-            typeof value === 'number' ? [key, value * 2] : [key, value]
-        )
-    );
-}
+// function multiplyNumeric(obj) {
+//     return Object.fromEntries(
+//         Object.entries(obj).map(([key, value]) => 
+//             typeof value === 'number' ? [key, value * 2] : [key, value]
+//         )
+//     );
+// }
 
-console.log(menu);
+// console.log(menu);
